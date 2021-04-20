@@ -1,0 +1,9 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/__pycache__
+/.idea
+/venv
+
+database.db
+

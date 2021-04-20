@@ -1,0 +1,165 @@
+1610457425174	geckodriver	INFO	Listening on 127.0.0.1:60666
+1610457425719	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\iag\\AppData\\Local\\Temp\\rust_mozprofile8ERydf"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610457428159	Marionette	INFO	Listening on port 60671
+1610457428449	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript error: https://bookmaker-ratings.com.ua/ru/tips/today/, line 4633: ReferenceError: VK is not defined
+1610457442918	Marionette	INFO	Stopped listening on port 60671
+1610525142156	geckodriver	INFO	Listening on 127.0.0.1:63433
+1610525142182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\iag\\AppData\\Local\\Temp\\rust_mozprofileCMnK9E"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610525144518	Marionette	INFO	Listening on port 63438
+1610525144925	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript error: https://bookmaker-ratings.com.ua/ru/tips/today/, line 4632: ReferenceError: VK is not defined
+1610525160570	Marionette	INFO	Stopped listening on port 63438
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1610525317393	geckodriver	INFO	Listening on 127.0.0.1:63644
+1610525317926	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\iag\\AppData\\Local\\Temp\\rust_mozprofileZO7d5s"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610525320314	Marionette	INFO	Listening on port 63649
+1610525320657	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript error: https://bookmaker-ratings.com.ua/ru/tips/today/, line 4632: ReferenceError: VK is not defined
+1610525341742	Marionette	INFO	Stopped listening on port 63649
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1610525378374	geckodriver	INFO	Listening on 127.0.0.1:63798
+1610525378404	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\iag\\AppData\\Local\\Temp\\rust_mozprofileIJsHMU"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610525380736	Marionette	INFO	Listening on port 63803
+1610525381134	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript error: https://bookmaker-ratings.com.ua/ru/tips/today/, line 4632: ReferenceError: VK is not defined
+1610525475910	Marionette	INFO	Stopped listening on port 63803
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1610525638839	geckodriver	INFO	Listening on 127.0.0.1:64048
+1610525639377	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\iag\\AppData\\Local\\Temp\\rust_mozprofileDUm23V"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610525643715	Marionette	INFO	Listening on port 64053
+1610525643814	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript error: https://bookmaker-ratings.com.ua/ru/tips/today/, line 4632: ReferenceError: VK is not defined
+1610526037314	Marionette	INFO	Stopped listening on port 64053
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\iag\\AppData\\Local\\Temp\\rust_mozprofileVO5XSD"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610525694834	Marionette	INFO	Listening on port 64188
+1610525695195	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript error: https://bookmaker-ratings.com.ua/ru/tips/today/, line 4632: ReferenceError: VK is not defined
+1610526037544	Marionette	INFO	Stopped listening on port 64188
+0525722096	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\iag\\AppData\\Local\\Temp\\rust_mozprofileSylJm0"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610525725901	Marionette	INFO	Listening on port 64305
+1610525725949	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript error: https://bookmaker-ratings.com.ua/ru/tips/today/, line 4632: ReferenceError: VK is not defined
+1610526039374	Marionette	INFO	Stopped listening on port 64305
+0525860699	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\iag\\AppData\\Local\\Temp\\rust_mozprofileuhgabh"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610525864081	Marionette	INFO	Listening on port 64505
+1610525864545	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript error: https://bookmaker-ratings.com.ua/ru/tips/today/, line 4632: ReferenceError: VK is not defined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1610526040697	Marionette	INFO	Stopped listening on port 64505
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rofileZIdJRL"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610525981849	Marionette	INFO	Listening on port 64741
+1610525982299	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript error: https://bookmaker-ratings.com.ua/ru/tips/today/, line 4632: ReferenceError: VK is not defined
+1610526033912	Marionette	INFO	Stopped listening on port 64741
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1610531948047	geckodriver	INFO	Listening on 127.0.0.1:52226
+1610531948568	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\iag\\AppData\\Local\\Temp\\rust_mozprofileQCXHwm"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610531952648	Marionette	INFO	Listening on port 52231
+1610531952908	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript error: https://bookmaker-ratings.com.ua/ru/tips/today/, line 4624: ReferenceError: VK is not defined
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+1610532166270	Marionette	INFO	Stopped listening on port 52231
+1610532391002	geckodriver	INFO	Listening on 127.0.0.1:52663
+1610532392546	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\iag\\AppData\\Local\\Temp\\rust_mozprofileaXZwZG"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610532394946	Marionette	INFO	Listening on port 52668
+1610532395277	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript error: https://bookmaker-ratings.com.ua/ru/tips/today/, line 4616: ReferenceError: VK is not defined
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript error: https://bookmaker-ratings.com.ua/ru/tips/today/, line 4616: ReferenceError: VK is not defined
+1610532413785	Marionette	INFO	Stopped listening on port 52668
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1610532452728	geckodriver	INFO	Listening on 127.0.0.1:52821
+1610532453253	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\iag\\AppData\\Local\\Temp\\rust_mozprofileDRcIxn"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610532455662	Marionette	INFO	Listening on port 52828
+1610532455991	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript error: https://bookmaker-ratings.com.ua/ru/tips/today/, line 4616: ReferenceError: VK is not defined
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript error: https://bookmaker-ratings.com.ua/ru/tips/today/, line 4616: ReferenceError: VK is not defined
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+JavaScript warning: https://bookmaker-ratings.com.ua/ru/wp-content/themes/base/assets/js/links.js?ver=24011514, line 264: unreachable code after return statement
+1610532732873	Marionette	INFO	Stopped listening on port 52828
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
