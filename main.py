@@ -33,11 +33,14 @@ def get_match_list(html):
 def get_bet_data(html, link):
     soup = BeautifulSoup(html, 'html.parser')
     match = soup.find('div', class_='match-block')
+    t = soup.find('ul', class_='breadcrumbs').find_all('li')[2].text.split(' ')[-1]
+    print(t)
     bet_info = (
         link,
         match.find('div', class_='date').text.strip(),
         match.find('div', class_='name').text.strip(),
         match.find('div', class_='bet-name').text.strip(),
+        match.find('ul', class_='breadcrumbs')
     )
     print(bet_info)
     return bet_info
