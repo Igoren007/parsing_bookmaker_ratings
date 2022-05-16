@@ -1,64 +1,76 @@
-import time
 import requests
+import json
 from bs4 import BeautifulSoup
-import sqlite3
+from user_agent import generate_user_agent
 
-URL = 'https://bookmaker-ratings.com.ua/ru/tips/today/'
-HEADERS = {
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
-    'accept': '*/*'}
 
-def save_to_db(bets):
+TOKEN = '1799874715:AAE0Rj4-SpV-OMAxLZg3hhbKIIueYwXZ9oM'
+CHANNEL = -1001337710941
 
-    conn = sqlite3.connect("database.db")
-    cursor = conn.cursor()
-    cursor.executemany("INSERT INTO data VALUES (?,?,?,?)", bets)
-    conn.commit()
 
+# this function returns HTML page code
 def get_html(url, params=None):
-    r = requests.get(url, headers=HEADERS, params=params).text
-    return r
+    ua = generate_user_agent()
+    headers = {'User-Agent': ua}
+    try:
+        response = requests.get(url, headers=headers, params=params).text
+    except:
+        response = 'Error'
+
+    return response
 
 
+# this function returns a list of links to matches from this html page
 def get_match_list(html):
     soup = BeautifulSoup(html, 'html.parser')
     items = soup.find_all('div', class_='block-item iscroll-item has-image')
+    more_btn = soup.find('a', class_='load_more-comments-text')
     links = []
     for item in items:
         link = item.a.get('href')
         links.append(link)
-    return links
+    return links, more_btn
 
 
+# gets the required data from the page
 def get_bet_data(html, link):
+
     soup = BeautifulSoup(html, 'html.parser')
     match = soup.find('div', class_='match-block')
-    t = soup.find('ul', class_='breadcrumbs').find_all('li')[2].text.split(' ')[-1]
-    print(t)
-    bet_info = (
-        link,
-        match.find('div', class_='date').text.strip(),
-        match.find('div', class_='name').text.strip(),
-        match.find('div', class_='bet-name').text.strip(),
-        match.find('ul', class_='breadcrumbs')
-    )
-    print(bet_info)
-    return bet_info
+    sport = soup.find('ul', class_='breadcrumbs').find_all('li')[2].text.split(' ')[-1]
+    bet_data = {
+        "sport": sport,
+        "link": link,
+        "date": match.find('div', class_='date').text.strip(),
+        "title": match.find('div', class_='name').text.strip(),
+        "bet": match.find('div', class_='bet-name').text.strip(),
+        "kf": match.a.get('data-factor-dec')
+    }
+    return bet_data
 
 
-def parser():
+def parser(url_base):
+
     bets = []
-    time1 = time.time()
-    start_link = URL
-    match_list = get_match_list(get_html(start_link))
-    for item in match_list:
-        print('******************************************************************')
-        bets.append(get_bet_data(get_html(item), item))
-    time2 = time.time()
-    print(bets)
-    save_to_db(bets)
-    print('Work time: {}'.format(time2 - time1))
+    more = True
+    i = 1
+    while more:
+        url = f'{url_base}?paged={str(i)}'
+        # если more=False значит кнопки "показать еще матчи" нет, следовательно мы прерывает цикл
+        match_list, more = get_match_list(get_html(url))
+        for item in match_list:
+            bets.append(get_bet_data(get_html(item), item))
+        i += 1
+    return bets
 
 
 if __name__ == '__main__':
-    parser()
+    url_today = 'https://bookmaker-ratings.com.ua/ru/tips/today/'
+    bets_today = parser(url_today)
+
+    url_tommorow = 'https://bookmaker-ratings.com.ua/ru/tips/tomorrow/'
+    bets_tommorow = parser(url_tommorow)
+    bets = bets_today + bets_tommorow
+
+    with open('bets.json', 'w') as f:
+        json.dump(bets, f, ensure_ascii=False, separators=(',', ': '))
