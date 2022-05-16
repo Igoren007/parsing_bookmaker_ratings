@@ -56,6 +56,7 @@ def parser(url_base):
     i = 1
     while more:
         url = f'{url_base}?paged={str(i)}'
+        print(url)
         # если more=False значит кнопки "показать еще матчи" нет, следовательно мы прерывает цикл
         match_list, more = get_match_list(get_html(url))
         for item in match_list:
