@@ -1,7 +1,10 @@
+import asyncio
 import json
 from datetime import datetime
 import random
 import logging
+from main import create_list_of_tips
+import aioschedule
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -21,6 +24,22 @@ tip_one_tomorrow = InlineKeyboardButton('Завтра - Один прогноз!
 tip_all_tomorrow = InlineKeyboardButton('Завтра - Давай все!', callback_data='all_tomorrow')
 tip_all = InlineKeyboardButton('Давай все что есть!', callback_data='all')
 kb = InlineKeyboardMarkup().add(tip_one_today, tip_all_today, tip_one_tomorrow, tip_all_tomorrow, tip_all)
+
+
+async def print_text():
+    print("It's noon!")
+
+
+async def scheduler():
+    aioschedule.every(30).minutes.do(create_list_of_tips)
+    while True:
+        await aioschedule.run_pending()
+        await asyncio.sleep(1)
+
+
+#запускаем планировщик параллельной задачей
+async def on_startup(_):
+    asyncio.create_task(scheduler())
 
 
 def get_tip(day='today', count = 'one'):
@@ -116,4 +135,4 @@ async def process_callback_button1(callback_query: types.CallbackQuery):
 
 
 if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)
+    executor.start_polling(dp, skip_updates=True, on_startup=on_startup)

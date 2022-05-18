@@ -65,7 +65,7 @@ def parser(url_base):
     return bets
 
 
-if __name__ == '__main__':
+def create_list_of_tips():
     url_today = 'https://bookmaker-ratings.com.ua/ru/tips/today/'
     bets_today = parser(url_today)
 
@@ -75,3 +75,8 @@ if __name__ == '__main__':
 
     with open('bets.json', 'w') as f:
         json.dump(bets, f, ensure_ascii=False, separators=(',', ': '))
+    print('file created...')
+
+
+if __name__ == '__main__':
+    create_list_of_tips()
