@@ -6,4 +6,4 @@
 /venv
 
 database.db
-bets.json
+#bets.json
